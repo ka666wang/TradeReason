@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10158" systemVersion="15F34" minimumToolsVersion="Automatic">
+    <entity name="Stock" syncable="YES">
+        <attribute name="date1" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="date2" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="image1" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="image2" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="inittrade" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="no" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Stock" positionX="-63" positionY="-18" width="128" height="150"/>
+    </elements>
 </model>

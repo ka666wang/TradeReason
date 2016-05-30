@@ -13,6 +13,8 @@
 		B0C5A2A11CFBD9E600CD9693 /* TradeReason.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0C5A29F1CFBD9E600CD9693 /* TradeReason.xcdatamodeld */; };
 		B0C5A2A31CFBD9E600CD9693 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C5A2A21CFBD9E600CD9693 /* Assets.xcassets */; };
 		B0C5A2A61CFBD9E600CD9693 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C5A2A41CFBD9E600CD9693 /* LaunchScreen.storyboard */; };
+		B0C5A2AE1CFBDCA100CD9693 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C5A2AD1CFBDCA100CD9693 /* Stock.swift */; };
+		B0C5A2B61CFBE5E200CD9693 /* WatchStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C5A2B51CFBE5E200CD9693 /* WatchStock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B0C5A2A21CFBD9E600CD9693 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0C5A2A51CFBD9E600CD9693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0C5A2A71CFBD9E600CD9693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0C5A2AD1CFBDCA100CD9693 /* Stock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		B0C5A2B51CFBE5E200CD9693 /* WatchStock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchStock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		B0C5A28C1CFBD9E600CD9693 = {
 			isa = PBXGroup;
 			children = (
+				B0C5A2B51CFBE5E200CD9693 /* WatchStock.swift */,
 				B0C5A2971CFBD9E600CD9693 /* TradeReason */,
 				B0C5A2961CFBD9E600CD9693 /* Products */,
 			);
@@ -59,6 +64,7 @@
 				B0C5A2981CFBD9E600CD9693 /* AppDelegate.swift */,
 				B0C5A29A1CFBD9E600CD9693 /* ViewController.swift */,
 				B0C5A29C1CFBD9E600CD9693 /* Main.storyboard */,
+				B0C5A2AD1CFBDCA100CD9693 /* Stock.swift */,
 				B0C5A2A21CFBD9E600CD9693 /* Assets.xcassets */,
 				B0C5A2A41CFBD9E600CD9693 /* LaunchScreen.storyboard */,
 				B0C5A2A71CFBD9E600CD9693 /* Info.plist */,
@@ -141,6 +147,8 @@
 			files = (
 				B0C5A2A11CFBD9E600CD9693 /* TradeReason.xcdatamodeld in Sources */,
 				B0C5A29B1CFBD9E600CD9693 /* ViewController.swift in Sources */,
+				B0C5A2B61CFBE5E200CD9693 /* WatchStock.swift in Sources */,
+				B0C5A2AE1CFBDCA100CD9693 /* Stock.swift in Sources */,
 				B0C5A2991CFBD9E600CD9693 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
